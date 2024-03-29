@@ -55,7 +55,7 @@ export default function App() {
           style={{
             backgroundColor: "#F7F9FF",
             height: 80,
-         
+
             borderRadius: 10,
             display: "flex",
             flexDirection: "row",
@@ -85,7 +85,6 @@ export default function App() {
 
         <View
           style={{
-            
             display: "flex",
             gap: 10,
           }}
