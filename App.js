@@ -55,7 +55,7 @@ export default function App() {
           style={{
             backgroundColor: "#F7F9FF",
             height: 80,
-            marginTop: 20,
+         
             borderRadius: 10,
             display: "flex",
             flexDirection: "row",
@@ -81,10 +81,11 @@ export default function App() {
             <Text style={{ fontSize: 22, fontWeight: "900" }}>18</Text>
           </View>
         </View>
+        {/* location */}
 
         <View
           style={{
-            marginTop: 20,
+            
             display: "flex",
             gap: 10,
           }}
@@ -99,7 +100,7 @@ export default function App() {
           >
             <Image
               style={{ height: 30, width: 30 }}
-              source={require("./assets/icons8-map-80.png")}
+              source={require("./assets/icons8-location-50.png")}
             />
             <Text style={{ fontSize: 15, color: "gray", letterSpacing: 1.5 }}>
               Dhaka Bangladesh
@@ -147,7 +148,7 @@ export default function App() {
           >
             <Image
               style={{ height: 30, width: 30 }}
-              source={require("./assets/icons8-buildings-64.png")}
+              source={require("./assets/icons8-repository-50.png")}
             />
             <Text style={{ fontSize: 15, color: "gray", letterSpacing: 1.5 }}>
               @github
@@ -172,9 +173,10 @@ const styles = StyleSheet.create({
     margin: 20,
     height: 100,
     backgroundColor: "#fff",
-    flex: 5,
+    flex: 4,
     padding: 20,
     borderRadius: 20,
+    justifyContent: "space-between",
   },
   profile: {
     height: 120,
