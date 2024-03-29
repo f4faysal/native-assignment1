@@ -16,7 +16,7 @@ export default function App() {
               style={{
                 fontSize: 22,
                 fontWeight: "bold",
-                 letterSpacing : 1.7
+                letterSpacing: 1.7,
               }}
             >
               Faysal Hossain
@@ -25,7 +25,7 @@ export default function App() {
               style={{
                 fontSize: 14,
                 fontWeight: "bold",
-                color: "indigo",
+                color: "#96AECE",
               }}
             >
               @f4faysal
@@ -99,11 +99,10 @@ export default function App() {
           >
             <Image
               style={{ height: 30, width: 30 }}
-              source={require("./assets/101200085.png")}
+              source={require("./assets/icons8-map-80.png")}
             />
             <Text style={{ fontSize: 15, color: "gray", letterSpacing: 1.5 }}>
-              {" "}
-              Dhaka Bangladesh{" "}
+              Dhaka Bangladesh
             </Text>
           </View>
           <View
@@ -116,11 +115,10 @@ export default function App() {
           >
             <Image
               style={{ height: 30, width: 30 }}
-              source={require("./assets/101200085.png")}
+              source={require("./assets/icons8-git-50.png")}
             />
             <Text style={{ fontSize: 15, color: "gray", letterSpacing: 1.5 }}>
-              {" "}
-              github.com/f4faysal{" "}
+              github.com/f4faysal
             </Text>
           </View>
           <View
@@ -133,11 +131,10 @@ export default function App() {
           >
             <Image
               style={{ height: 30, width: 30 }}
-              source={require("./assets/101200085.png")}
+              source={require("./assets/icons8-linkedin-50.png")}
             />
             <Text style={{ fontSize: 15, color: "gray", letterSpacing: 1.5 }}>
-              {" "}
-              in/f4faysal{" "}
+              in/f4faysal
             </Text>
           </View>
           <View
@@ -150,11 +147,10 @@ export default function App() {
           >
             <Image
               style={{ height: 30, width: 30 }}
-              source={require("./assets/101200085.png")}
+              source={require("./assets/icons8-buildings-64.png")}
             />
             <Text style={{ fontSize: 15, color: "gray", letterSpacing: 1.5 }}>
-              {" "}
-              @github{" "}
+              @github
             </Text>
           </View>
         </View>
@@ -167,7 +163,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F9F8FD",
+    backgroundColor: "#F9F9FF",
   },
   box: {
     flex: 1,
